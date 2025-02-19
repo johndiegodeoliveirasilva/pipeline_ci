@@ -14,7 +14,7 @@ jobs:
       - uses: erlef/setup-elixir@v1
         with:
           elixir-version: ${{ matrix.elixir }}
-          otp-version: ${{ matrix.opt }}
+          otp-version: ${{ matrix.otp }}
       - uses: actions/cache@v2
         id: mix-cache-format
         with:
